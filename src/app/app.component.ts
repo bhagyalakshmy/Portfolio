@@ -135,7 +135,7 @@ export class AppComponent implements OnInit {
   title = 'SOFTWARE ENGINEER';
   email = 'bhagubhagya14@gmail.com';
   phone = '+971-565992313, +91-9497025618';
-  location = 'THRISSUR, KERALA, INDIA';
+  location = 'ABU DHABI, UAE';
   linkedin = 'https://www.linkedin.com/in/bhagyalakshmitp-dev/';
   github = 'https://github.com/bhagyalakshmy';
   visaStatus = 'Dependent Visa';
