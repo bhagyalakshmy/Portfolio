@@ -284,6 +284,15 @@ export class AppComponent implements OnInit {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }
+
+  downloadResume() {
+    const link = document.createElement('a');
+    link.href = 'assets/pdf/BHAGYALAKSHMI_TP_RESUME.pdf';
+    link.download = 'BHAGYALAKSHMI_TP_RESUME.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   
   currentYear = new Date().getFullYear();
 
